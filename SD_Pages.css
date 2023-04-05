@@ -1,0 +1,54 @@
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  background-image: url("background.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainBody
+{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #b80000; 
+    text-align: center; 
+    width: 70%; 
+    margin-left: 15%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logoImage
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+nav li
+{
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+hr
+{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #b80000;
+}
